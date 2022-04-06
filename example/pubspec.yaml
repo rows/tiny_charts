@@ -1,0 +1,21 @@
+name: example
+description: Tiny charts example
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tiny_charts:
+    path: ../
+  dashbook: ^0.1.5
+
+dev_dependencies:
+  rows_lint: 0.1.1
+
+flutter:
+  uses-material-design: true
+

@@ -1,0 +1,6 @@
+include: package:rows_lint/analysis_options.yaml
+
+# We have a bug on the include above and it seems like the only fix is to exclude sub projects
+analyzer:
+  exclude:
+    - 'test/**/*.mocks.dart'
